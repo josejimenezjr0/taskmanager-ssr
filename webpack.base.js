@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   //run babel on every file
+  devtool: "source-map",
 
   plugins: [
     new MiniCssExtractPlugin({
